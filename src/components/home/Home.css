@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textPart {
+    width: 100%;
+    height: 100vh;
+    background-color: #090808;
+    z-index: -1;
+    color: #ffff;
+    padding-top: 150px;
+    padding-left: 150px;
+
+}
+.textPart button {
+    padding: 9px 25px;
+    background-color: rgb(234, 175, 1);
+    border: 1px solid rgb(234, 175, 1);
+    outline: none;
+    border-radius: 8px;
+    transition: .5s all ease-in-out;    
+    margin-top: 20px;
+}
+.textPart button:hover {
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.textPart h1 {
+    font-size: 38px;
+}
+.textPart p {
+    width: 40%;
+    
+    margin-top: 20px;
+}
+
